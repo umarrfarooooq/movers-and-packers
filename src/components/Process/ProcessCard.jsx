@@ -9,7 +9,7 @@ const ProcessCard = ({ title, iconPath, index }) => {
       <div 
         onMouseEnter={() => setIsHovered(true)} 
         onMouseLeave={() => setIsHovered(false)} 
-        className='relative rounded cursor-pointer transition-all bg-[#F5F5F5] hover:bg-[#3F51B5] flex items-center justify-center shadow-md p-12'
+        className={`relative rounded cursor-pointer transition-all ${isHovered ? 'bg-[#3F51B5]  hover:text-white' : 'bg-[#F5F5F5]  hover:text-gray-900'} flex items-center justify-center shadow-md p-12`}
       >
         <span>
           <Image 

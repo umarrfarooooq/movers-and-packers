@@ -8,7 +8,7 @@ const WellcomeBox = ({ iconUrl, title, description }) => {
   return (
     <div className='min-h-[270px]'>
       <div
-        className='flex flex-col items-center gap-6 transition-all cursor-pointer bg-[#F5F5F5] hover:bg-[#3F51B5] hover:text-white py-10 px-4 rounded'
+        className={`flex flex-col items-center gap-6 transition-all cursor-pointer ${isHovered ? 'bg-[#3F51B5]  hover:text-white' : 'bg-[#F5F5F5]  hover:text-gray-900'} py-10 px-4 rounded`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
