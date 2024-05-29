@@ -1,0 +1,21 @@
+{
+    "processSteps": [
+      {
+        "title": "Book Our Service",
+        "iconPath": "/process/icons/icon1.svg"
+      },
+      {
+        "title": "We Pack Things",
+        "iconPath": "/process/icons/icon2.svg"
+      },
+      {
+        "title": "We Move Things",
+        "iconPath": "/process/icons/icon3.svg"
+      },
+      {
+        "title": "Delivery Things",
+        "iconPath": "/process/icons/icon4.svg"
+      }
+    ]
+  }
+  

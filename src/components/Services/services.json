@@ -1,0 +1,45 @@
+{
+    "services": [
+      {
+        "imagePath": "/services/images/local-moving.jpg",
+        "title": "Local Moving",
+        "description": "Our local moving services ensure a smooth and hassle-free move within your city, handled by experienced professionals."
+      },
+      {
+        "imagePath": "/services/images/long-distance.jpg",
+        "title": "Long-Distance Moving",
+        "description": "We offer reliable long-distance moving services, providing safe and efficient transportation of your belongings across states."
+      },
+      {
+        "imagePath": "/services/images/relocation.jpg",
+        "title": "Relocation",
+        "description": "Our relocation services cater to all your moving needs, whether residential or commercial, ensuring a seamless transition."
+      },
+      {
+        "imagePath": "/services/images/full-service-moving.jpg",
+        "title": "Full-Service Moving",
+        "description": "Enjoy a stress-free move with our full-service moving, handling everything from packing to unpacking and everything in between."
+      },
+      {
+        "imagePath": "/services/images/cross-country.jpg",
+        "title": "Cross-Country Moving",
+        "description": "Our cross-country moving services offer comprehensive solutions for long-haul moves, ensuring your items arrive safely."
+      },
+      {
+        "imagePath": "/services/images/supplies-moving.jpg",
+        "title": "Moving Supplies",
+        "description": "We provide high-quality moving supplies, including boxes, tape, and packing materials to ensure your belongings are well-protected."
+      },
+      {
+        "imagePath": "/services/images/international-moving.jpg",
+        "title": "International Moving",
+        "description": "Our international moving services simplify your move overseas, handling customs and logistics for a smooth transition."
+      },
+      {
+        "imagePath": "/services/images/military-moving.jpg",
+        "title": "Military Moving",
+        "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
+      }
+    ]
+  }
+  

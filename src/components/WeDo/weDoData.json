@@ -1,0 +1,29 @@
+{
+    "weDoSection": [
+      {
+        "id": 1,
+        "iconUrl": "/weDo/icons/icon1.svg",
+        "title": "Construction Areas",
+        "description": "Specializing in moving services tailored for construction sites, ensuring efficient logistics and safety."
+      },
+      {
+        "id": 2,
+        "iconUrl": "/weDo/icons/icon2.svg",
+        "title": "Homes & Apartments",
+        "description": "Reliable moving solutions designed for homes and apartments, making your relocation stress-free and smooth."
+      },
+      {
+        "id": 3,
+        "iconUrl": "/weDo/icons/icon3.svg",
+        "title": "Commercial Buildings",
+        "description": "Expertise in handling commercial moves, guaranteeing minimal disruption and maximum efficiency for businesses."
+      },
+      {
+        "id": 5,
+        "iconUrl": "/weDo/icons/icon5.svg",
+        "title": "Schools & Colleges",
+        "description": "Specialized moving solutions for schools and colleges, prioritizing safety and timely relocation of educational facilities."
+      }
+    ]
+  }
+  

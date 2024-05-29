@@ -1,0 +1,29 @@
+{
+    "welcomeSection": [
+      {
+        "id": 1,
+        "iconUrl": "/wellcome/icons/icon1.svg",
+        "title": "Moving Protection",
+        "description": "Comprehensive coverage for your belongings to ensure a worry-free move. Our top priority is to safeguard your items during transportation and handling."
+      },
+      {
+        "id": 2,
+        "iconUrl": "/wellcome/icons/icon2.svg",
+        "title": "Timely Delivery",
+        "description": "Guaranteed on-time delivery to keep your schedule on track. We understand the importance of punctuality and strive to deliver your items promptly and efficiently."
+      },
+      {
+        "id": 3,
+        "iconUrl": "/wellcome/icons/icon3.svg",
+        "title": "Packing and Unpacking",
+        "description": "Professional packing and unpacking services for a seamless move. Let our expert team handle the packing and unpacking process, ensuring a smooth ."
+      },
+      {
+        "id": 4,
+        "iconUrl": "/wellcome/icons/icon4.svg",
+        "title": "We Make It Faster",
+        "description": "Efficient and speedy moving services to save you time. Our streamlined process and experienced movers work together to make your move."
+      }
+    ]
+  }
+  
