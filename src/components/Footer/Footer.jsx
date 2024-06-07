@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "../Header/Logo.svg"
+import Logo from "@public/Main/logo.png"
 import "./Footer.css"
 import Image from 'next/image';
 

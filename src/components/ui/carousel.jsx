@@ -2,7 +2,7 @@
 import * as React from "react"
 import useEmblaCarousel from "embla-carousel-react";
 import { ArrowLeft, ArrowRight } from "lucide-react"
-import styles from "../Testimonial2/testimonial.module.css"
+import styles from "../Testimonial/testimonial.module.css"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 

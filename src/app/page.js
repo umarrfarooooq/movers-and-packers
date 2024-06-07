@@ -1,23 +1,24 @@
-import Footer from "@/components/Footer/Footer";
-import { Navbar } from "@/components/Header/Navbar";
-import Hero from "@/components/Main/Hero";
+import Main from "@/components/Main/Main";
+import Mission from "@/components/Mission/Mission";
+import Offices from "@/components/Our-Offices/Offices";
 import Process from "@/components/Process/Process";
 import AllServices from "@/components/Services/AllServices";
+import { Testimonial } from "@/components/Testimonial/Testimonial";
 import WeDo from "@/components/WeDo/WeDo";
 import Wellcome from "@/components/Wellcome/Wellcome";
 import WhyChooseUs from "@/components/Why-Choose-Us/Why-Choose-Us";
-
 export default function Home() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Wellcome />
-      <WhyChooseUs />
-      <WeDo />
-      <AllServices />
-      <Process />
-      <Footer />
+        <Main />
+        <Wellcome />
+        <WhyChooseUs />
+        <WeDo />
+        <AllServices />
+        <Testimonial />
+        <Mission />
+        <Process />
+        <Offices />
     </>
   );
 }

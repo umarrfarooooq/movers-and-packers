@@ -1,0 +1,27 @@
+.plane {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: plane-landing 5s ease-in-out, plane-scale 2s ease-in-out 0.5s both;
+}
+
+@keyframes plane-scale {
+  0% {
+    transform: translate(-50%, -40%) scale(0.8);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.5);
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.7);
+  }
+}
+
+
+@media (min-width: 400px) and (max-width: 640px) {
+  .mainImage {
+      min-height: 22rem;
+  }
+}

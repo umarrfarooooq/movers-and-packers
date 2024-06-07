@@ -1,29 +1,29 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
-import Logo from "./Logo.svg"
+import Logo from "@public/Main/logo.png"
 import Image from "next/image";
 export function Navbar() {
   return (<>
     <header
       className="flex h-20 w-full items-center justify-between container mx-auto">
-      <Link className="flex items-center" href="#">
+      <Link className="flex items-center" href="/">
         <Image src={Logo} className="h-20 w-20" alt="logo"/>
       </Link>
       <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-        <Link className="hover:text-gray-900" href="#">
+        <Link className="hover:text-gray-900" href="/">
           Home
         </Link>
-        <Link className="hover:text-gray-900" href="#">
+        <Link className="hover:text-gray-900" href="/about">
           About
         </Link>
-        <Link className="hover:text-gray-900" href="#">
+        <Link className="hover:text-gray-900" href="/services">
           Services
         </Link>
-        <Link className="hover:text-gray-900" href="#">
+        <Link className="hover:text-gray-900" href="/gallery">
           Gallery
         </Link>
-        <Link className="hover:text-gray-900" href="#">
+        <Link className="hover:text-gray-900" href="/contact">
           Contact US
         </Link>
       </nav>
@@ -36,19 +36,19 @@ export function Navbar() {
         </SheetTrigger>
         <SheetContent side="right">
           <div className="grid gap-6 p-6">
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/">
               Home
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/about">
               About
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/services">
               Services
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/gallery">
               Gallery
             </Link>
-            <Link className="font-medium hover:underline" href="#">
+            <Link className="font-medium hover:underline" href="/contact">
               Contact US
             </Link>
           </div>

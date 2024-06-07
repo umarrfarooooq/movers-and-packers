@@ -1,7 +1,6 @@
 import React from 'react';
 import ServiceBox from './ServiceBox';
 import Link from 'next/link';
-import ServiceImg from "./servicee.png"
 import servicesData from './services.json';
 
 const AllServices = () => {
@@ -22,7 +21,7 @@ const AllServices = () => {
       </div>
       <div className="w-full flex items-center justify-center my-16">
         <button>
-          <Link className="bg-[#05CDFF] hover:bg-[#38bfe0] transition-all text-gray-100 font-bold rounded-lg px-8 py-4" href="/">
+          <Link className="bg-[#05CDFF] hover:bg-[#38bfe0] transition-all text-gray-100 font-bold rounded-lg px-8 py-4" href="/services">
             See All
           </Link>
         </button>
