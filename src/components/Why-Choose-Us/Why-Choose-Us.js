@@ -66,7 +66,7 @@ const WhyChooseUs = ()=>{
 </svg>
                 </div>
                 <div className="flex flex-col items-start text-[#262F32]">
-                  <h3 className="text-base md:text-xl mb-0">Save and Secure move </h3>
+                  <h3 className="text-base md:text-xl mb-0">Save & Secure </h3>
                   <p className="mb-0 text-start font-normal text-sm md:text-base leading-relaxed tracking-wide">
                   Ensure a safe and secure move, saving you both time and worry.         
                   </p>

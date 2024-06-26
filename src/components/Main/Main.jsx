@@ -12,8 +12,8 @@ const Main = () => {
           <Image
             src={MainImage}
             alt="Main Background Image"
-            layout="fill"
-            objectFit="cover"
+            fill
+            style={{ objectFit: 'cover' }}
             className="bg-no-repeat bg-center bg-cover md:rounded-2xl"
           />
           <div className="plane">
@@ -21,6 +21,7 @@ const Main = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

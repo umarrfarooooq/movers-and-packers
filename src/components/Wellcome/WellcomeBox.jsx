@@ -17,7 +17,7 @@ const WellcomeBox = ({ iconUrl, title, description }) => {
             <Image style={{ filter: isHovered ? 'brightness(0) invert(1)' : 'none' }} src={iconUrl} height={50} width={62} alt='Wellcome Icon' className='h-[50px] w-[62px]' />
           </span>
         </div>
-        <div className='text-xl font-semibold'>
+        <div className='text-xl font-semibold text-center'>
           {title}
         </div>
         <div className='text-center'>

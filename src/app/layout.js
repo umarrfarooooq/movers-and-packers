@@ -2,7 +2,8 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import { Navbar } from "@/components/Header/Navbar";
-
+import whatsappLogo from "@public/whatsapp.svg"
+import Image from "next/image";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
@@ -14,6 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={montserrat.className}>
+      <div>
+      <div class="whatsapp fixed bottom-[25px] left-[25px] z-50">
+      <a rel="noreferrer" target="_blank" href="https://wa.me/923161511673">
+        <Image class="w-[60px] h-[60px]" src={whatsappLogo} alt="whatsapp icon" />
+      </a>
+      </div>
+      </div>
       <Navbar />
       {children}
       <Footer />

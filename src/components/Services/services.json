@@ -11,6 +11,11 @@
         "description": "We offer reliable long-distance moving services, providing safe and efficient transportation of your belongings across states."
       },
       {
+        "imagePath": "/services/images/international-moving.jpg",
+        "title": "International Moving",
+        "description": "Our international moving services simplify your move overseas, handling customs and logistics for a smooth transition."
+      },
+      {
         "imagePath": "/services/images/relocation.jpg",
         "title": "Relocation",
         "description": "Our relocation services cater to all your moving needs, whether residential or commercial, ensuring a seamless transition."
@@ -31,13 +36,28 @@
         "description": "We provide high-quality moving supplies, including boxes, tape, and packing materials to ensure your belongings are well-protected."
       },
       {
-        "imagePath": "/services/images/international-moving.jpg",
-        "title": "International Moving",
-        "description": "Our international moving services simplify your move overseas, handling customs and logistics for a smooth transition."
+        "imagePath": "/services/images/military-moving.jpg",
+        "title": "Military Moving",
+        "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
       },
       {
         "imagePath": "/services/images/military-moving.jpg",
-        "title": "Military Moving",
+        "title": "AC Technician",
+        "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
+      },
+      {
+        "imagePath": "/services/images/military-moving.jpg",
+        "title": "Painter",
+        "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
+      },
+      {
+        "imagePath": "/services/images/military-moving.jpg",
+        "title": "Labour/Helper",
+        "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
+      },
+      {
+        "imagePath": "/services/images/military-moving.jpg",
+        "title": "Loading/Unloading",
         "description": "Specialized in military moves, we offer reliable and efficient moving services for military personnel and their families."
       }
     ]

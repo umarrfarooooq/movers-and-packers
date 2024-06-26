@@ -1,3 +1,4 @@
+import { HomeGalleryComponent } from "@/components/Home-Gallery/HomeGallery";
 import Main from "@/components/Main/Main";
 import Mission from "@/components/Mission/Mission";
 import Offices from "@/components/Our-Offices/Offices";
@@ -15,6 +16,7 @@ export default function Home() {
         <WhyChooseUs />
         <WeDo />
         <AllServices />
+        <HomeGalleryComponent />
         <Testimonial />
         <Mission />
         <Process />
