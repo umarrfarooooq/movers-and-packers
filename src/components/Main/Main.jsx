@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Main = () => {
   return (
-    <div className="pb-4">
+    <div className="py-4">
       <div className="md:px-4">
         <div className="relative mainImage max-h-[11rem] min-h-[11rem] sm:min-h-[32rem] md:min-h-[42rem] lg:min-h-[52rem] max-w-full w-full md:rounded-lg">
           <Image

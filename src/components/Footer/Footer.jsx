@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from "@public/Main/logo.png"
+import Logo from "@public/Main/Stress Free Logistics.png"
 import "./Footer.css"
 import Image from 'next/image';
 
@@ -13,11 +13,11 @@ function Footer() {
           <div className="mb-6 md:mb-0">
           <div className="flex items-center">
             <a href="/">
-              <Image src={Logo} width={100}  className="h-24" alt="Company Logo" />
+              <Image src={Logo} width={100}  className="w-40" alt="Company Logo" />
             </a>
           </div>
           <div className='footerDesc md:w-max lg:mr-20'>
-          <h3 className='text-lg mt-4'>Movers & Packers</h3>
+          <h3 className='text-lg'>Movers & Packers</h3>
             <p className='text-sm md:text-base lg:text-lg my-4'>
             A comprehensive platform offering professional <br />moving packing services, ensuring a hassle-free<br />relocation experience with real-time tracking.
             </p>
@@ -103,7 +103,7 @@ function Footer() {
                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
   <path d="M19.5 7.5C19.5 6.675 18.825 6 18 6H6C5.175 6 4.5 6.675 4.5 7.5V16.5C4.5 17.325 5.175 18 6 18H18C18.825 18 19.5 17.325 19.5 16.5V7.5ZM18 7.5L12 11.25L6 7.5H18ZM18 16.5H6V9L12 12.75L18 9V16.5Z" fill="#F2F2F2"/>
                 </svg></span>
-                  <a className='text-sm md:text-base lg:text-lg' href='#'>support@moverspackers.com</a>
+                  <a className='text-sm md:text-base lg:text-lg' href='#'>stressfreelogisticsmovers@gmail.com</a>
                 </li>
               </ul>
             </div>

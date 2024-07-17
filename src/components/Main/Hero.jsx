@@ -1,7 +1,5 @@
 import Link from "next/link";
-import HeroSectionImage from "./hero2.jpg";
 import React from "react";
-import Image from "next/image";
 import backgroundImage from './main-bg.jpg';
 
 const Hero = () => {

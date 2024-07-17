@@ -1,29 +1,30 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
-import Logo from "@public/Main/logo.png"
+import Logo from "@public/Main/Stress Free Logistics.png"
 import Image from "next/image";
 export function Navbar() {
   return (<>
+  <div className="bg-[#242525]">
     <header
       className="flex h-20 w-full items-center justify-between container mx-auto">
-      <Link className="flex items-center" href="/">
-        <Image src={Logo} className="h-20 w-20" alt="logo"/>
+      <Link className="flex items-start" href="/">
+        <Image src={Logo} className="h-20 w-40" alt="logo"/>
       </Link>
-      <nav className="hidden items-center gap-6 text-sm font-medium md:flex">
-        <Link className="hover:text-gray-900" href="/">
+      <nav className="hidden items-center gap-6 text-white text-sm font-medium md:flex">
+        <Link className="" href="/">
           Home
         </Link>
-        <Link className="hover:text-gray-900" href="/about">
+        <Link className="" href="/about">
           About
         </Link>
-        <Link className="hover:text-gray-900" href="/services">
+        <Link className="" href="/services">
           Services
         </Link>
-        <Link className="hover:text-gray-900" href="/gallery">
+        <Link className="" href="/gallery">
           Gallery
         </Link>
-        <Link className="hover:text-gray-900" href="/contact">
+        <Link className="" href="/contact">
           Contact US
         </Link>
       </nav>
@@ -55,6 +56,8 @@ export function Navbar() {
         </SheetContent>
       </Sheet>
     </header>
+  </div>
+    
   </>);
 }
 
@@ -68,7 +71,7 @@ function MenuIcon(props) {
       height="24"
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke="#fff"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round">

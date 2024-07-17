@@ -29,7 +29,7 @@ const WhyChooseUs = ()=>{
               </svg>
                 </div>
                 <div className="flex flex-col items-start text-[#262F32]">
-                  <h3 className="text-base md:text-xl mb-0">Flexible & Affordable</h3>
+                  <h3 className="text-base md:text-xl mb-0 font-semibold">Flexible & Affordable</h3>
                   <p className="mb-0 text-start font-normal text-sm md:text-base leading-relaxed tracking-wide">
                   Affordable options with simple tracking for flexible and stress-free moving experiences.
                   </p>
@@ -46,7 +46,7 @@ const WhyChooseUs = ()=>{
               </svg>
                 </div>
                 <div className="flex flex-col items-start text-[#262F32]">
-                  <h3 className="text-base md:text-xl mb-0">Delivery on time </h3>
+                  <h3 className="text-base md:text-xl mb-0 font-semibold">Delivery on time </h3>
                   <p className="mb-0 text-start font-normal text-sm md:text-base leading-relaxed tracking-wide">
                   Timely delivery ensures your items arrive promptly, keeping your schedule intact.
                   </p>
@@ -66,7 +66,7 @@ const WhyChooseUs = ()=>{
 </svg>
                 </div>
                 <div className="flex flex-col items-start text-[#262F32]">
-                  <h3 className="text-base md:text-xl mb-0">Save & Secure </h3>
+                  <h3 className="text-base md:text-xl mb-0 font-semibold">Save & Secure </h3>
                   <p className="mb-0 text-start font-normal text-sm md:text-base leading-relaxed tracking-wide">
                   Ensure a safe and secure move, saving you both time and worry.         
                   </p>
@@ -80,7 +80,7 @@ const WhyChooseUs = ()=>{
                 </div>
                 
                 <div className="flex flex-col items-start text-[#262F32]">
-                  <h3 className="text-base md:text-xl mb-0">24/7 Support</h3>
+                  <h3 className="text-base md:text-xl mb-0 font-semibold">24/7 Support</h3>
                   <p className="mb-0 text-start font-normal text-sm md:text-base leading-relaxed tracking-wide">
                   Get assistance anytime with our round-the-clock support for all your moving needs.            
                   </p>

@@ -19,48 +19,23 @@ export function ContactUs() {
               <div className="flex items-start gap-4">
                 <LocateIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <p className="font-medium">Acme Movers and Packers</p>
-                  <p className="text-gray-500 dark:text-gray-400">123 Main St, Anytown USA 12345</p>
+                  <p className="font-medium">Stress Free Logistics Movers and Packers</p>
+                  <p className="text-gray-500 dark:text-gray-400">Office #7, 1st Floor, Super Trade Center, F10 Markaz, Islamabad</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <PhoneIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <p className="font-medium">+1 (555) 555-5555</p>
-                  <p className="text-gray-500 dark:text-gray-400">Monday - Friday, 9am to 5pm</p>
+                  <p className="font-medium">+92 3161511673</p>
+                  <p className="font-bold text-xs">Office Timing</p>
+                  <p className="text-gray-500 dark:text-gray-400">24/7</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
                 <MailIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
                 <div>
-                  <p className="font-medium">info@acmemovers.com</p>
+                  <p className="font-medium">stressfreelogisticsmovers@gmail.com</p>
                   <p className="text-gray-500 dark:text-gray-400">We will get back to you as soon as possible</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="space-y-4">
-            <h3 className="text-xl font-bold">Office Hours</h3>
-            <div className="space-y-2">
-              <div className="flex items-start gap-4">
-                <CalendarIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
-                <div>
-                  <p className="font-medium">Monday - Friday</p>
-                  <p className="text-gray-500 dark:text-gray-400">9:00 AM - 5:00 PM</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <CalendarIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
-                <div>
-                  <p className="font-medium">Saturday</p>
-                  <p className="text-gray-500 dark:text-gray-400">10:00 AM - 2:00 PM</p>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <CalendarIcon className="mt-1 h-6 w-6 text-gray-500 dark:text-gray-400" />
-                <div>
-                  <p className="font-medium">Sunday</p>
-                  <p className="text-gray-500 dark:text-gray-400">Closed</p>
                 </div>
               </div>
             </div>
