@@ -8,8 +8,8 @@ const ServiceBox = (props) => {
         <div className="overflow-hidden rounded-md w-full max-h-[17rem] md:max-h-[13rem]">
           <Image
             loading="lazy"
-            width={100}
-            height={100}
+            width={1000}
+            height={1000}
             className="w-full h-full object-top object-cover"
             src={props.image}
             alt={props.imageAlt || "Service Detail"}

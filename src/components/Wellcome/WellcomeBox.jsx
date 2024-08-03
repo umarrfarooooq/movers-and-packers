@@ -12,7 +12,7 @@ const WellcomeBox = ({ iconUrl, title, description }) => {
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <div>
+        <div className={`bg-[#0095B5] ${isHovered ? "bg-opacity-100" : "bg-opacity-5"} transition-all w-28 h-28 rounded-full flex items-center justify-center`}>
           <span>
             <Image style={{ filter: isHovered ? 'brightness(0) invert(1)' : 'none' }} src={iconUrl} height={50} width={62} alt='Wellcome Icon' className='h-[50px] w-[62px]' />
           </span>
